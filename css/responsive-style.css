@@ -1,0 +1,25 @@
+.out-auto-width {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .out-auto-width {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .out-auto-width {
+    max-width: 720px;
+  }
+}
+@media (min-width: 921px) {
+  .out-auto-width {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .out-auto-width {
+    max-width: 1140px;
+  }
+}
+
+/*# sourceMappingURL=responsive-style.css.map */

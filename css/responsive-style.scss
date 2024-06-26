@@ -1,0 +1,26 @@
+// 创建一个 mixin 来处理特定屏幕大小的样式
+@mixin specific-widths {
+    width: 100%;
+    
+    @media (min-width: 576px) {
+      max-width: 540px;
+      }
+
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+  
+    @media (min-width: 921px) {
+      max-width: 960px;
+    }
+  
+    @media (min-width: 1200px) {
+      max-width: 1140px;
+    }
+  }
+  
+  // 使用 mixin 来应用样式
+  .out-auto-width {
+    @include specific-widths;
+    margin-top: 100px;
+  }
